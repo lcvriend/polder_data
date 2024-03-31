@@ -1,0 +1,27 @@
+name: geo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python >= 3.11
+  # data
+  - pandas
+  - geopandas
+  - lxml
+  - tabulate
+  - pyarrow
+  # visualization
+  - altair
+  - matplotlib
+  - folium
+  # io
+  - xlrd
+  - xlsxwriter
+  - openpyxl
+  # interaction
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  # templating
+  - jinja2
+  - markdown
